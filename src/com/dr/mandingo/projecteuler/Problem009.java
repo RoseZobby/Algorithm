@@ -16,7 +16,7 @@ package com.dr.mandingo.projecteuler;
  * 
  * Answer: 31875000
  */
-public class Problem9 {
+public class Problem009 {
 
 	public static void main(String[] args) {
 		for (int a = 1; a <= 1000; a++) {

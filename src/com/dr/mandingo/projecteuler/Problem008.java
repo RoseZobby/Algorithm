@@ -34,7 +34,7 @@ package com.dr.mandingo.projecteuler;
  * 
  * Answer: 23514624000
  */
-public class Problem8 {
+public class Problem008 {
 
 	public static final int SIZE = 13;
 

@@ -56,7 +56,7 @@ package com.dr.mandingo.projecteuler;
  * 
  * Answer: 70600674
  */
-public class Problem11 {
+public class Problem011 {
 
 	public static void main(String[] args) {
 		int[][] datas = {

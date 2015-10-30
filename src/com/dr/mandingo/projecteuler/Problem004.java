@@ -12,7 +12,7 @@ package com.dr.mandingo.projecteuler;
  * 
  * Answer: 906609
  */
-public class Problem4 {
+public class Problem004 {
 
 	public static void main(String[] args) {
 		int target = 0;

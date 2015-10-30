@@ -15,7 +15,7 @@ package com.dr.mandingo.projecteuler;
  * 
  * Answer: 4613732
  */
-public class Problem2 {
+public class Problem002 {
 
 	public static void main(String[] args) {
 		int sum = 0;
