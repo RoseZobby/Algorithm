@@ -1,37 +1,31 @@
 package com.dr.mandingo.projecteuler;
 
 /**
- * 10001st prime
+ * Summation of primes
  * 
- * ============================================================================
+ * The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
  * 
- * By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see
- * that the 6th prime is 13.
+ * Find the sum of all the primes below two million.
  * 
- * What is the 10 001st prime number?
- * 
- * PS:合数的最大质因子不大于它的平方根
- * 
- * Answer: 104743
- * 
+ * Answer:142913828922
  */
-public class Problem007 {
+public class Problem010 {
 
 	public static void main(String[] args) {
 		int current = 3;
-		int counter = 1;
+		long sum = 2;
 		while (true) {
-			if (counter < 10001) {
+			if (current < 2000000) {
 				long maxFactor = getMaxFactor(current);
 				if (maxFactor == 1) {
-					counter++;
+					sum += current;
 				}
 				current += 2;
 			} else {
-				System.out.println("the final result is: " + (current - 2));
 				break;
 			}
 		}
+		System.out.println("this final result is:" + sum);
 	}
 
 	public static long getMaxFactor(long value) {
