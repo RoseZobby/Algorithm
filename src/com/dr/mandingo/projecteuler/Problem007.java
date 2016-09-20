@@ -56,7 +56,6 @@ public class Problem007 {
 			}
 		}
 		return factor;
-
 	}
 
 }
